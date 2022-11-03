@@ -21,9 +21,9 @@ const filename = path.resolve(__dirname, './avatar.jpg');
 
 async function test() {
 
-	const stat = await fs.promises.stat(filename);
+	const status = await fs.promises.stat(filename);
 
-	console.log(stat);
+	console.log(status);
 	// Stats {
 	// 	dev: 16777220,
 	// 		mode: 33188,

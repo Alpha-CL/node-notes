@@ -3,8 +3,8 @@
 
 const express = require('express'),
 	router = express.Router(),
-	admnServ = require('../../services/adminService'),
-	{ asyncHandler} = require('../getSendResult'),
+	adminServ = require('../../services/adminService'),
+	{ asyncHandler} = require('../util/getSendResult'),
 	cryptor = require('../../util/crypt'),
 	jwt = require('../jwt');
 
@@ -18,9 +18,7 @@ router.post(
 
 		// console.log('test');
 		// console.log(req.body.loginId, req.body.loginPwd);
-
-		const result = await admnServ.login(req.body.loginId, req.body.loginPwd);
-
+		const result = await adminServ.login(req.body.loginId, req.body.loginPwd);
 		if (result) {
 
 			let value = result.id;
@@ -41,7 +39,6 @@ router.post(
 			jwt.publish(res, undefined, {id: value})
 
 		}
-
 		return result;
 	})
 );
@@ -53,9 +50,8 @@ router.get(
 
 		console.log('test');
 
-		return await admnServ.getAdminById(req.userId);
+		return await adminServ.getAdminById(req.userId);
 }));
-
 
 
 //-------------------------------------------------------------------------------------------------------------------//

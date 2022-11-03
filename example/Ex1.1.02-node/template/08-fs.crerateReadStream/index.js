@@ -104,7 +104,6 @@ rs.on('pause', () => {
 		rs.resume();
 
 	}, 1000);
-
 });
 
 rs.on('resume', () => {

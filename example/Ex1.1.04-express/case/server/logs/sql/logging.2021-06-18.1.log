@@ -1,0 +1,1132 @@
+sql [2021-06-18 18:47:39] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 18:47:39] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 18:47:39] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 18:47:39] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 18:47:39] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 18:47:39] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 18:47:39] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 18:47:39] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 18:47:39] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 18:47:39] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 18:47:39] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 18:47:39] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 18:47:47] [DEBUG]: Executing (default): SELECT `id`, `name`, `birthday`, `sex`, `mobile`, `createdAt`, `updatedAt`, `deletedAt` FROM `students` AS `student` WHERE (`student`.`deletedAt` IS NULL AND `student`.`id` = '73');
+
+sql [2021-06-18 18:58:55] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 18:58:55] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 18:58:55] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 18:58:55] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 18:58:55] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 18:58:55] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 18:58:55] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 18:58:55] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 18:58:55] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 18:58:55] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 18:58:55] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 18:58:55] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 18:59:03] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 18:59:03] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 18:59:03] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 18:59:03] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 18:59:03] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 18:59:03] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 18:59:03] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 18:59:03] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 18:59:03] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 18:59:03] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 18:59:03] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 18:59:03] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 18:59:08] [DEBUG]: Executing (default): SELECT count(*) AS `count` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL;
+
+sql [2021-06-18 18:59:16] [DEBUG]: Executing (default): SELECT count(*) AS `count` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL;
+
+sql [2021-06-18 18:59:34] [DEBUG]: Executing (default): SELECT `id`, `name`, `birthday`, `sex`, `mobile`, `createdAt`, `updatedAt`, `deletedAt` FROM `students` AS `student` WHERE (`student`.`deletedAt` IS NULL AND `student`.`id` = '72');
+
+sql [2021-06-18 19:00:23] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:00:23] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:00:23] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:00:23] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:00:23] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:00:23] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:00:23] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:00:23] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:00:23] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:00:23] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:00:23] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:00:23] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:00:38] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:00:38] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:00:38] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:00:38] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:00:38] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:00:38] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:00:38] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:00:38] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:00:38] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:00:38] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:00:38] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:00:38] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:00:43] [DEBUG]: Executing (default): SELECT count(*) AS `count` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL;
+
+sql [2021-06-18 19:00:44] [DEBUG]: Executing (default): SELECT count(*) AS `count` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL;
+
+sql [2021-06-18 19:00:50] [DEBUG]: Executing (default): SELECT count(*) AS `count` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL;
+
+sql [2021-06-18 19:01:07] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:01:07] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:01:07] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:01:07] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:01:07] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:01:07] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:01:07] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:01:07] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:01:07] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:01:07] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:01:07] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:01:07] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:01:10] [DEBUG]: Executing (default): SELECT count(*) AS `count` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL;
+
+sql [2021-06-18 19:01:11] [DEBUG]: Executing (default): SELECT count(*) AS `count` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL;
+
+sql [2021-06-18 19:01:11] [DEBUG]: Executing (default): SELECT count(*) AS `count` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL;
+
+sql [2021-06-18 19:02:34] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:02:34] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:02:34] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:02:34] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:02:34] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:02:34] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:02:34] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:02:34] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:02:34] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:02:34] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:02:34] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:02:34] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:02:35] [DEBUG]: Executing (default): SELECT count(*) AS `count` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL;
+
+sql [2021-06-18 19:02:37] [DEBUG]: Executing (default): SELECT count(*) AS `count` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL;
+
+sql [2021-06-18 19:03:07] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:03:07] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:03:07] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:03:07] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:03:07] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:03:07] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:03:07] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:03:07] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:03:07] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:03:07] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:03:07] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:03:07] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:03:08] [DEBUG]: Executing (default): SELECT count(*) AS `count` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL;
+
+sql [2021-06-18 19:03:20] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:03:20] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:03:20] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:03:20] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:03:20] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:03:20] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:03:20] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:03:20] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:03:20] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:03:20] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:03:20] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:03:20] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:03:21] [DEBUG]: Executing (default): SELECT count(*) AS `count` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL;
+
+sql [2021-06-18 19:04:08] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:04:08] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:04:08] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:04:08] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:04:08] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:04:08] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:04:08] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:04:08] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:04:08] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:04:08] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:04:08] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:04:08] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:04:20] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:04:20] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:04:20] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:04:20] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:04:20] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:04:20] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:04:20] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:04:20] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:04:20] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:04:20] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:04:20] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:04:20] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:04:22] [DEBUG]: Executing (default): SELECT count(*) AS `count` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL;
+
+sql [2021-06-18 19:04:22] [DEBUG]: Executing (default): SELECT `id`, `name`, `sex`, `birthday`, `age` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL LIMIT 10;
+
+sql [2021-06-18 19:04:23] [DEBUG]: Executing (default): SELECT count(*) AS `count` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL;
+
+sql [2021-06-18 19:04:23] [DEBUG]: Executing (default): SELECT `id`, `name`, `sex`, `birthday`, `age` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL LIMIT 10;
+
+sql [2021-06-18 19:04:23] [DEBUG]: Executing (default): SELECT count(*) AS `count` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL;
+
+sql [2021-06-18 19:04:23] [DEBUG]: Executing (default): SELECT `id`, `name`, `sex`, `birthday`, `age` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL LIMIT 10;
+
+sql [2021-06-18 19:04:26] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:04:26] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:04:26] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:04:26] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:04:26] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:04:26] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:04:26] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:04:26] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:04:26] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:04:26] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:04:26] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:04:26] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:13:11] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:13:11] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:13:11] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:13:11] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:13:11] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:13:11] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:13:11] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:13:11] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:13:11] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:13:11] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:13:11] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:13:11] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:14:23] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:14:23] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:14:23] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:14:23] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:14:23] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:14:23] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:14:23] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:14:23] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:14:23] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:14:23] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:14:23] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:14:23] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:16:30] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:16:30] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:16:30] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:16:30] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:16:30] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:16:30] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:16:30] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:16:30] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:16:30] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:16:30] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:16:30] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:16:30] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:17:17] [DEBUG]: Executing (default): SELECT count(*) AS `count` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL;
+
+sql [2021-06-18 19:17:17] [DEBUG]: Executing (default): SELECT `id`, `name`, `sex`, `birthday`, `age` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL LIMIT 10;
+
+sql [2021-06-18 19:17:54] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:17:54] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:17:54] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:17:54] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:17:54] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:17:54] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:17:54] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:17:54] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:17:54] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:17:54] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:17:54] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:17:54] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:17:56] [DEBUG]: Executing (default): SELECT count(*) AS `count` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL;
+
+sql [2021-06-18 19:17:56] [DEBUG]: Executing (default): SELECT `id`, `name`, `sex`, `birthday`, `age` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL LIMIT 10;
+
+sql [2021-06-18 19:18:22] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:18:22] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:18:22] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:18:22] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:18:22] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:18:22] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:18:22] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:18:22] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:18:22] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:18:22] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:18:22] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:18:22] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:18:24] [DEBUG]: Executing (default): SELECT count(*) AS `count` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL;
+
+sql [2021-06-18 19:18:24] [DEBUG]: Executing (default): SELECT `id`, `name`, `sex`, `birthday` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL LIMIT 10;
+
+sql [2021-06-18 19:18:53] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:18:53] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:18:53] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:18:53] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:18:53] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:18:53] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:18:53] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:18:53] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:18:53] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:18:53] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:18:53] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:18:53] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:21:54] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:21:54] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:21:54] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:21:54] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:21:54] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:21:54] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:21:54] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:21:54] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:21:54] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:21:54] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:21:54] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:21:54] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:22:11] [DEBUG]: Executing (default): INSERT INTO `students` (`id`,`name`,`birthday`,`sex`,`mobile`,`createdAt`,`updatedAt`) VALUES (NULL,'崔洋','2010-10-03 00:00:00',true,'10233726228','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'卢艳','1977-07-26 00:00:00',false,'19781778505','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'孔桂英','1986-04-16 00:00:00',false,'11834654659','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'林娜','1984-11-12 00:00:00',true,'17467759988','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'胡娟','1975-01-21 00:00:00',true,'11177683264','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'胡娟','2020-01-28 00:00:00',false,'11569411837','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'韩强','1971-12-02 00:00:00',false,'13663811660','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'侯超','1998-01-25 00:00:00',false,'15805758935','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'贺超','2018-02-28 00:00:00',false,'17432958734','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'余强','2000-05-20 00:00:00',false,'15027641066','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'黎磊','2006-10-03 00:00:00',false,'17326096763','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'龚伟','1970-10-01 00:00:00',false,'11898787233','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'任超','1984-07-20 00:00:00',false,'10131228654','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'傅静','1998-11-13 00:00:00',false,'11241341656','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'文超','1992-10-27 00:00:00',false,'11618748055','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'史霞','1986-07-30 00:00:00',true,'13423673164','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'袁娜','2007-10-15 00:00:00',false,'14661275938','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'郑磊','1992-05-05 00:00:00',true,'18063804546','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'顾艳','2007-06-18 00:00:00',false,'16496098262','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'贾军','2008-02-25 00:00:00',false,'15488422379','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'方敏','2003-12-03 00:00:00',false,'18833316451','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'赖磊','2017-09-25 00:00:00',true,'18896564272','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'唐静','2020-07-07 00:00:00',false,'18645113312','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'金超','2021-06-05 00:00:00',false,'13023265121','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'孟霞','1983-10-12 00:00:00',true,'11452176212','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'顾强','2015-04-13 00:00:00',false,'12138611789','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'阎娟','2008-06-11 00:00:00',false,'17171847146','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'侯秀英','1972-08-12 00:00:00',false,'14725817933','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'高丽','1984-08-15 00:00:00',false,'19308276863','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'苏军','2020-10-25 00:00:00',false,'17976691012','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'姚杰','2015-03-30 00:00:00',true,'12268457568','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'袁霞','2010-09-18 00:00:00',true,'14463604028','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'熊强','2004-08-17 00:00:00',false,'12011348052','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'蔡军','1976-11-17 00:00:00',false,'12325932042','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'贾丽','1987-05-30 00:00:00',true,'14376926745','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'于洋','2017-06-01 00:00:00',false,'14762287961','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'余勇','1977-03-31 00:00:00',true,'18058779354','2021-06-18 11:22:11','2021-06-18 11:22:11'),(NULL,'魏明','2009-12-22 00:00:00',true,'17826599148','2021-06-18 11:22:11','2021-06-18 11:22:11');
+
+sql [2021-06-18 19:22:28] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:22:28] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:22:28] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:22:28] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:22:28] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:22:28] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:22:28] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:22:28] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:22:28] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:22:28] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:22:28] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:22:28] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:24:00] [DEBUG]: Executing (default): SELECT count(*) AS `count` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL;
+
+sql [2021-06-18 19:24:00] [DEBUG]: Executing (default): SELECT `id`, `name`, `sex`, `birthday` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL LIMIT 10;
+
+sql [2021-06-18 19:25:02] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:25:02] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:25:02] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:25:02] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:25:02] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:25:02] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:25:02] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:25:02] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:25:02] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:25:02] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:25:02] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:25:02] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:25:05] [DEBUG]: Executing (default): SELECT `id`, `name`, `birthday`, `sex`, `mobile`, `createdAt`, `updatedAt`, `deletedAt` FROM `students` AS `student` WHERE (`student`.`deletedAt` IS NULL);
+
+sql [2021-06-18 19:25:42] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:25:42] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:25:42] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:25:42] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:25:42] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:25:42] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:25:42] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:25:42] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:25:42] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:25:42] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:25:42] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:25:42] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:25:55] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:25:55] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:25:55] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:25:55] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:25:55] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:25:55] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:25:55] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:25:55] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:25:55] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:25:55] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:25:55] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:25:55] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:26:05] [DEBUG]: Executing (default): SELECT count(*) AS `count` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL;
+
+sql [2021-06-18 19:26:05] [DEBUG]: Executing (default): SELECT `id`, `name`, `sex`, `birthday` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL LIMIT 10;
+
+sql [2021-06-18 19:26:20] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:26:20] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:26:20] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:26:20] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:26:20] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:26:20] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:26:20] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:26:20] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:26:20] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:26:20] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:26:20] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:26:20] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:26:23] [DEBUG]: Executing (default): SELECT count(*) AS `count` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL;
+
+sql [2021-06-18 19:26:23] [DEBUG]: Executing (default): SELECT `id`, `name`, `sex`, `birthday` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL LIMIT 10;
+
+sql [2021-06-18 19:28:53] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:28:53] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:28:53] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:28:53] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:28:54] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:28:54] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:28:54] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:28:54] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:28:54] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:28:54] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:28:54] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:28:54] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:29:01] [DEBUG]: Executing (default): SELECT `id`, `name`, `birthday`, `sex`, `mobile`, `createdAt`, `updatedAt`, `deletedAt` FROM `students` AS `student` WHERE (`student`.`deletedAt` IS NULL);
+
+sql [2021-06-18 19:29:20] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:29:20] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:29:20] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:29:20] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:29:20] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:29:20] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:29:20] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:29:20] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:29:20] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:29:20] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:29:20] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:29:20] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:29:22] [DEBUG]: Executing (default): SELECT `id`, `name`, `birthday`, `sex`, `mobile`, `createdAt`, `updatedAt`, `deletedAt` FROM `students` AS `student` WHERE (`student`.`deletedAt` IS NULL);
+
+sql [2021-06-18 19:29:51] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:29:51] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:29:51] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:29:51] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:29:51] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:29:51] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:29:51] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:29:51] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:29:51] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:29:51] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:29:51] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:29:51] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:29:54] [DEBUG]: Executing (default): SELECT `id`, `name`, `birthday`, `sex`, `mobile`, `createdAt`, `updatedAt`, `deletedAt` FROM `students` AS `student` WHERE (`student`.`deletedAt` IS NULL);
+
+sql [2021-06-18 19:31:25] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:31:25] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:31:25] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:31:25] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:31:25] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:31:25] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:31:25] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:31:25] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:31:25] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:31:25] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:31:25] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:31:25] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:31:46] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:31:46] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:31:46] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:31:46] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:31:46] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:31:46] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:31:46] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:31:46] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:31:46] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:31:46] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:31:46] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:31:46] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:33:27] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:33:27] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:33:27] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:33:27] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:33:27] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:33:27] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:33:27] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:33:27] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:33:27] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:33:27] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:33:27] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:33:27] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:37:43] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:37:43] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:37:43] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:37:43] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:37:43] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:37:43] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:37:43] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:37:43] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:37:43] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:37:43] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:37:43] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:37:43] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:37:47] [DEBUG]: Executing (default): SELECT `id`, `name`, `birthday`, `sex`, `mobile`, `createdAt`, `updatedAt`, `deletedAt` FROM `students` AS `student` WHERE (`student`.`deletedAt` IS NULL);
+
+sql [2021-06-18 19:38:08] [DEBUG]: Executing (default): SELECT `id`, `name`, `birthday`, `sex`, `mobile`, `createdAt`, `updatedAt`, `deletedAt` FROM `students` AS `student` WHERE (`student`.`deletedAt` IS NULL AND `student`.`id` = '70');
+
+sql [2021-06-18 19:38:18] [DEBUG]: Executing (default): SELECT `id`, `name`, `birthday`, `sex`, `mobile`, `createdAt`, `updatedAt`, `deletedAt` FROM `students` AS `student` WHERE (`student`.`deletedAt` IS NULL AND `student`.`id` = '126');
+
+sql [2021-06-18 19:38:22] [DEBUG]: Executing (default): SELECT count(*) AS `count` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL;
+
+sql [2021-06-18 19:38:30] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:38:30] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:38:30] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:38:30] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:38:30] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:38:30] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:38:30] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:38:30] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:38:30] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:38:30] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:38:30] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:38:30] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:38:31] [DEBUG]: Executing (default): SELECT count(*) AS `count` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL;
+
+sql [2021-06-18 19:38:32] [DEBUG]: Executing (default): SELECT count(*) AS `count` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL;
+
+sql [2021-06-18 19:39:11] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:39:11] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:39:11] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:39:11] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:39:11] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:39:11] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:39:11] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:39:11] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:39:11] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:39:11] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:39:11] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:39:11] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:39:12] [DEBUG]: Executing (default): SELECT count(*) AS `count` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL;
+
+sql [2021-06-18 19:39:12] [DEBUG]: Executing (default): SELECT `id`, `name`, `sex`, `birthday` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL LIMIT 10;
+
+sql [2021-06-18 19:39:57] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:39:57] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:39:57] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:39:57] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:39:57] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:39:57] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:39:57] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:39:57] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:39:57] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:39:57] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:39:57] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:39:57] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:39:59] [DEBUG]: Executing (default): SELECT count(*) AS `count` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL;
+
+sql [2021-06-18 19:39:59] [DEBUG]: Executing (default): SELECT `id`, `name`, `sex`, `birthday` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL LIMIT 0, 10;
+
+sql [2021-06-18 19:40:31] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:40:31] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:40:31] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:40:31] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:40:31] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:40:31] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:40:31] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:40:31] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:40:31] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:40:31] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:40:31] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:40:31] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:40:32] [DEBUG]: Executing (default): SELECT count(*) AS `count` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL;
+
+sql [2021-06-18 19:40:32] [DEBUG]: Executing (default): SELECT `id`, `name`, `sex`, `birthday` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL LIMIT 0, 10;
+
+sql [2021-06-18 19:41:09] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:41:09] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:41:09] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:41:09] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:41:09] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:41:09] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:41:09] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:41:09] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:41:09] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:41:09] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:41:09] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:41:09] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:41:11] [DEBUG]: Executing (default): SELECT `id`, `name`, `birthday`, `sex`, `mobile`, `createdAt`, `updatedAt`, `deletedAt` FROM `students` AS `student` WHERE (`student`.`deletedAt` IS NULL);
+
+sql [2021-06-18 19:57:11] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 19:57:11] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 19:57:11] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 19:57:11] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 19:57:11] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 19:57:11] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 19:57:11] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 19:57:11] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 19:57:11] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:57:11] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 19:57:11] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 19:57:11] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 19:57:16] [DEBUG]: Executing (default): SELECT `id`, `name`, `birthday`, `sex`, `mobile`, `createdAt`, `updatedAt`, `deletedAt` FROM `students` AS `student` WHERE (`student`.`deletedAt` IS NULL);
+
+sql [2021-06-18 19:57:20] [DEBUG]: Executing (default): SELECT count(*) AS `count` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL;
+
+sql [2021-06-18 19:57:20] [DEBUG]: Executing (default): SELECT `id`, `name`, `sex`, `birthday` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL LIMIT 0, 10;
+
+sql [2021-06-18 19:57:27] [DEBUG]: Executing (default): SELECT `id`, `name`, `birthday`, `sex`, `mobile`, `createdAt`, `updatedAt`, `deletedAt` FROM `students` AS `student` WHERE (`student`.`deletedAt` IS NULL AND `student`.`id` = '130');
+
+sql [2021-06-18 20:06:24] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 20:06:24] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 20:06:24] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 20:06:24] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 20:06:24] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 20:06:24] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 20:06:24] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 20:06:24] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 20:06:24] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 20:06:24] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 20:06:24] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 20:06:24] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 20:08:50] [DEBUG]: Executing (default): SELECT `id`, `name`, `birthday`, `sex`, `mobile`, `createdAt`, `updatedAt`, `deletedAt` FROM `students` AS `student` WHERE (`student`.`deletedAt` IS NULL AND `student`.`id` = '130');
+
+sql [2021-06-18 20:08:53] [DEBUG]: Executing (default): SELECT `id`, `name`, `birthday`, `sex`, `mobile`, `createdAt`, `updatedAt`, `deletedAt` FROM `students` AS `student` WHERE (`student`.`deletedAt` IS NULL);
+
+sql [2021-06-18 20:13:08] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 20:13:08] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 20:13:08] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 20:13:08] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 20:13:08] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 20:13:08] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 20:13:08] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 20:13:08] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 20:13:08] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 20:13:08] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 20:13:08] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 20:13:08] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 20:14:07] [DEBUG]: Executing (default): SELECT count(*) AS `count` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL;
+
+sql [2021-06-18 20:14:07] [DEBUG]: Executing (default): SELECT `id`, `name`, `sex`, `birthday` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL LIMIT 0, 10;
+
+sql [2021-06-18 20:14:50] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 20:14:50] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 20:14:50] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 20:14:50] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 20:14:50] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 20:14:50] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 20:14:50] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 20:14:50] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 20:14:50] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 20:14:50] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 20:14:50] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 20:14:50] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 20:19:34] [DEBUG]: Executing (default): SELECT count(*) AS `count` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL;
+
+sql [2021-06-18 20:19:34] [DEBUG]: Executing (default): SELECT `id`, `name`, `sex`, `birthday` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL LIMIT 0, 10;
+
+sql [2021-06-18 20:22:57] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 20:22:57] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 20:22:57] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 20:22:57] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 20:22:57] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 20:22:57] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 20:22:57] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 20:22:57] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 20:22:57] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 20:22:57] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 20:22:57] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 20:22:57] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+
+sql [2021-06-18 20:22:59] [DEBUG]: Executing (default): SELECT count(*) AS `count` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL;
+
+sql [2021-06-18 20:22:59] [DEBUG]: Executing (default): SELECT `id`, `name`, `sex`, `birthday` FROM `students` AS `student` WHERE `student`.`deletedAt` IS NULL LIMIT 0, 10;
+
+sql [2021-06-18 20:23:29] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-06-18 20:23:29] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-06-18 20:23:29] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-06-18 20:23:29] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-06-18 20:23:29] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `name` `name` VARCHAR(255) NOT NULL;
+
+sql [2021-06-18 20:23:29] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `birthday` `birthday` DATETIME NOT NULL;
+
+sql [2021-06-18 20:23:29] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `sex` `sex` TINYINT(1) NOT NULL;
+
+sql [2021-06-18 20:23:29] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `mobile` `mobile` VARCHAR(11) NOT NULL;
+
+sql [2021-06-18 20:23:29] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `createdAt` `createdAt` DATETIME NOT NULL;
+
+sql [2021-06-18 20:23:29] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `updatedAt` `updatedAt` DATETIME NOT NULL;
+
+sql [2021-06-18 20:23:29] [DEBUG]: Executing (default): ALTER TABLE `students` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+sql [2021-06-18 20:23:29] [DEBUG]: Executing (default): SHOW INDEX FROM `students`
+

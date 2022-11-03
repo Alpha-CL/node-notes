@@ -21,14 +21,10 @@ const Student = sequelize.define(
 			type: DataTypes.DATE,
 			allowNull: false,
 			get() {
-
 				const birth = this.getDataValue('birthday');
-
 				if (birth) {
-
 					return birth.getTime();
 				}
-
 				return undefined;
 			},
 			set() {

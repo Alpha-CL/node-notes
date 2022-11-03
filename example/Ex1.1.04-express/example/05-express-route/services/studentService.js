@@ -1,12 +1,12 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-const Student = require("../models/Student");
-const {Op} = require("sequelize");
-const Class = require("../models/Class");
-const validate = require("validate.js");
-const moment = require("moment");
-const {pick} = require("../util/propertyHelper");
+const Student = require("../models/Student"),
+	{Op} = require("sequelize"),
+	Class = require("../models/Class"),
+	validate = require("validate.js"),
+	moment = require("moment"),
+	{pick} = require("../util/propertyHelper");
 
 
 //-------------------------------------------------------------------------------------------------------------------//

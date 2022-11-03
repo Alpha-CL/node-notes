@@ -1,0 +1,7 @@
+{
+	"database": "my_blog",
+	"username": "root",
+	"password": "",
+	"host": "localhost",
+	"database_type": "mysql"
+}

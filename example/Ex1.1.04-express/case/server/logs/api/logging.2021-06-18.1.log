@@ -1,0 +1,152 @@
+api [2021-06-18 18:36:04] [ERROR]: ::1 - - "GET /api/student/72 HTTP/1.1" 404 153 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 18:36:12] [ERROR]: ::1 - - "GET /api/student/72 HTTP/1.1" 404 153 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 18:37:56] [ERROR]: ::1 - - "GET /api/student/72 HTTP/1.1" 404 153 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 18:38:02] [ERROR]: ::1 - - "GET /api/student HTTP/1.1" 404 150 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 18:39:29] [ERROR]: ::1 - - "GET /api/student HTTP/1.1" 404 150 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 18:39:50] [ERROR]: ::1 - - "GET /api/student HTTP/1.1" 404 150 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 18:39:51] [ERROR]: ::1 - - "GET /api/student HTTP/1.1" 404 150 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 18:40:13] [ERROR]: ::1 - - "GET /api/student?id=70 HTTP/1.1" 404 150 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 18:40:14] [ERROR]: ::1 - - "GET /api/student?id=70 HTTP/1.1" 404 150 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 18:40:14] [ERROR]: ::1 - - "GET /api/student?id=70 HTTP/1.1" 404 150 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 18:40:30] [ERROR]: ::1 - - "GET /api/student/70 HTTP/1.1" 404 153 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 18:40:35] [ERROR]: ::1 - - "GET /api/student HTTP/1.1" 404 150 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 18:40:44] [ERROR]: ::1 - - "GET /api/student/70?id=70 HTTP/1.1" 404 153 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 18:40:45] [ERROR]: ::1 - - "GET /api/student/70?id=70 HTTP/1.1" 404 153 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 18:41:36] [INFO]: ::1 - - "GET /api/student/70?id=70 HTTP/1.1" 200 31 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 18:41:41] [INFO]: ::1 - - "GET /api/student/70 HTTP/1.1" 200 31 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 18:41:42] [INFO]: ::1 - - "GET /api/student/70 HTTP/1.1" 200 31 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 18:41:42] [INFO]: ::1 - - "GET /api/student/70 HTTP/1.1" 200 31 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 18:42:37] [INFO]: ::1 - - "GET /api/student/70 HTTP/1.1" 200 19 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 18:42:39] [INFO]: ::1 - - "GET /api/student/70 HTTP/1.1" 200 19 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 18:42:47] [INFO]: ::1 - - "GET /api/student/70 HTTP/1.1" 200 31 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 18:42:47] [INFO]: ::1 - - "GET /api/student/70 HTTP/1.1" 200 31 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 18:43:31] [INFO]: ::1 - - "GET /api/student/72 HTTP/1.1" 200 220 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 18:47:47] [INFO]: ::1 - - "GET /api/student/73 HTTP/1.1" 200 220 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 18:59:08] [ERROR]: ::1 - - "GET /api/student HTTP/1.1" 500 1860 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 18:59:16] [ERROR]: ::1 - - "GET /api/student/ HTTP/1.1" 500 1860 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 18:59:34] [INFO]: ::1 - - "GET /api/student/72 HTTP/1.1" 200 220 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:00:43] [ERROR]: ::1 - - "GET /api/student HTTP/1.1" 500 1860 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:00:44] [ERROR]: ::1 - - "GET /api/student HTTP/1.1" 500 1860 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:00:50] [ERROR]: ::1 - - "GET /api/student/ HTTP/1.1" 500 1860 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:01:10] [ERROR]: ::1 - - "GET /api/student/ HTTP/1.1" 500 1860 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:01:11] [ERROR]: ::1 - - "GET /api/student/ HTTP/1.1" 500 1860 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:01:11] [ERROR]: ::1 - - "GET /api/student/ HTTP/1.1" 500 1860 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:02:35] [ERROR]: ::1 - - "GET /api/student/ HTTP/1.1" 500 1860 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:02:37] [ERROR]: ::1 - - "GET /api/student/ HTTP/1.1" 500 1860 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:03:08] [ERROR]: ::1 - - "GET /api/student/ HTTP/1.1" 500 1860 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:03:21] [ERROR]: ::1 - - "GET /api/student/ HTTP/1.1" 500 1860 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:04:22] [ERROR]: ::1 - - "GET /api/student/ HTTP/1.1" 500 1860 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:04:23] [ERROR]: ::1 - - "GET /api/student/ HTTP/1.1" 500 1860 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:04:23] [ERROR]: ::1 - - "GET /api/student/ HTTP/1.1" 500 1860 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:17:17] [ERROR]: ::1 - - "GET /api/student HTTP/1.1" 500 1860 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:17:56] [ERROR]: ::1 - - "GET /api/student HTTP/1.1" 500 57 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:18:24] [INFO]: ::1 - - "GET /api/student HTTP/1.1" 200 804 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:24:00] [INFO]: ::1 - - "GET /api/student HTTP/1.1" 200 818 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:25:05] [ERROR]: ::1 - - "GET /api/student HTTP/1.1" 500 52 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:26:05] [INFO]: ::1 - - "GET /api/student/all HTTP/1.1" 200 818 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:26:23] [INFO]: ::1 - - "GET /api/student/all HTTP/1.1" 200 818 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:29:01] [ERROR]: ::1 - - "GET /api/student/all HTTP/1.1" 500 52 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:29:23] [ERROR]: ::1 - - "GET /api/student/all HTTP/1.1" 500 52 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:29:55] [INFO]: ::1 - - "GET /api/student/all HTTP/1.1" 200 7432 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:37:47] [INFO]: ::1 - - "GET /api/student/all HTTP/1.1" 200 7432 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:38:08] [INFO]: ::1 - - "GET /api/student/70 HTTP/1.1" 200 31 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:38:18] [INFO]: ::1 - - "GET /api/student/126 HTTP/1.1" 200 220 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:38:22] [ERROR]: ::1 - - "GET /api/student/ HTTP/1.1" 500 108 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:38:31] [ERROR]: ::1 - - "GET /api/student/ HTTP/1.1" 500 108 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:38:32] [ERROR]: ::1 - - "GET /api/student/ HTTP/1.1" 500 108 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:39:12] [INFO]: ::1 - - "GET /api/student/ HTTP/1.1" 200 818 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:39:59] [INFO]: ::1 - - "GET /api/student/ HTTP/1.1" 200 818 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:40:32] [INFO]: ::1 - - "GET /api/student/ HTTP/1.1" 200 818 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:41:11] [INFO]: ::1 - - "GET /api/student/all HTTP/1.1" 200 7432 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:57:16] [INFO]: ::1 - - "GET /api/student/all HTTP/1.1" 200 7432 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:57:20] [INFO]: ::1 - - "GET /api/student HTTP/1.1" 200 818 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 19:57:27] [INFO]: ::1 - - "GET /api/student/130 HTTP/1.1" 200 220 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 20:08:50] [INFO]: ::1 - - "GET /api/student/130 HTTP/1.1" 200 220 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 20:08:53] [INFO]: ::1 - - "GET /api/student/all HTTP/1.1" 200 7432 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 20:13:12] [ERROR]: ::1 - - "GET / HTTP/1.1" 404 139 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-18 20:13:52] [ERROR]: ::1 - - "GET / HTTP/1.1" 404 139 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-18 20:13:52] [ERROR]: ::1 - - "GET / HTTP/1.1" 404 139 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-18 20:14:07] [INFO]: ::1 - - "GET /api/student/ HTTP/1.1" 200 818 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-18 20:14:21] [ERROR]: ::1 - - "GET / HTTP/1.1" 404 139 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-18 20:14:22] [ERROR]: ::1 - - "GET / HTTP/1.1" 404 139 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-18 20:14:27] [ERROR]: ::1 - - "GET / HTTP/1.1" 404 139 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-18 20:14:28] [ERROR]: ::1 - - "GET / HTTP/1.1" 404 139 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-18 20:14:37] [ERROR]: ::1 - - "GET / HTTP/1.1" 404 139 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-18 20:19:34] [INFO]: ::1 - - "GET /api/student HTTP/1.1" 200 818 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-18 20:22:59] [INFO]: ::1 - - "GET /api/student HTTP/1.1" 200 818 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+

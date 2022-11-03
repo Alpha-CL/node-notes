@@ -15,13 +15,11 @@ const express = require("express"),
 
 app.use(session({
 	secret: 'alpha-cookie-test',
-	name: 'sessionid',
-
+	name: 'sessionId',
 }));
 
 
 app.use(express.static(staticRoot));
-
 
 /**
  * cookie parser middleware

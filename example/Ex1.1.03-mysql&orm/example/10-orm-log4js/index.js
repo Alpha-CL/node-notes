@@ -1,7 +1,7 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-const {sqlLogger,defaultLogger} = require("./logger");
+const {sqlLogger, defLogger} = require("./logger");
 
 require("./init");
 const {getStudents} = require('./services/studentService');
@@ -10,12 +10,11 @@ const {getStudents} = require('./services/studentService');
 //-------------------------------------------------------------------------------------------------------------------//
 
 
-
 // setInterval(() => {
 //
-// 	sqlLogger.debug('on sql done')
+// 	defLogger.debug('one sql done')
 //
-// }, 1000);
+// }, 100);
 
 
 getStudents()

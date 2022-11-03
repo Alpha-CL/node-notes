@@ -8,7 +8,7 @@ const {EventEmitter} = require('events');
 
 
 /**
- * EventEmitter             //
+ * EventEmitter
  *
  *
  * addEvent: on(fn, callback);

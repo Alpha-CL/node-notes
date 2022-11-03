@@ -8,7 +8,6 @@ const Class = require("../models/Class");
 //-------------------------------------------------------------------------------------------------------------------//
 
 
-
 exports.addClass = async function (obj) {
 	const ins = await Class.create(obj);
 	return ins.toJSON();

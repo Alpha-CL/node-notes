@@ -24,7 +24,6 @@ fs.readFile('./index.js', 'utf-8', (err, data) => {
 
 	while (Date.now() - start < 300) {
 
-
 	}
 });
 

@@ -36,8 +36,6 @@ async function getFileContent(url) {
 	let filename = path.resolve(__dirname, 'public', urlObj.pathname.substr(1)),
 		stat = await getStat(filename);
 
-
-
 	// console.log(stat);
 
 	if (!stat) {

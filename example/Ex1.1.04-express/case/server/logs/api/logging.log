@@ -1,0 +1,118 @@
+api [2021-06-19 11:43:30] [INFO]: 127.0.0.1 - - "GET /api/student HTTP/1.1" 200 818 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 11:43:41] [WARN]: 127.0.0.1 - - "GET /api/student HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 11:43:56] [WARN]: 127.0.0.1 - - "GET /api/student HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 11:43:57] [WARN]: 127.0.0.1 - - "GET /api/student HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 11:44:18] [WARN]: 127.0.0.1 - - "GET /api/student HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 11:44:52] [INFO]: 127.0.0.1 - - "GET /api/student/all HTTP/1.1" 200 7432 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 11:45:51] [WARN]: 127.0.0.1 - - "GET /api/student/all HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 11:46:19] [WARN]: 127.0.0.1 - - "GET /api/student/all HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 11:46:28] [WARN]: 127.0.0.1 - - "GET /api/student/all HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 13:06:59] [WARN]: 127.0.0.1 - - "GET /api/student/all HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 13:07:05] [WARN]: 127.0.0.1 - - "GET /api/student/all HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 13:07:11] [WARN]: 127.0.0.1 - - "GET /api/student/all HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 13:07:36] [INFO]: 127.0.0.1 - - "GET /api/student/all HTTP/1.1" 200 7432 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 13:07:40] [WARN]: 127.0.0.1 - - "GET /api/student/all HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 13:08:54] [WARN]: 127.0.0.1 - - "GET /api/student/all HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 13:09:10] [WARN]: 127.0.0.1 - - "GET /api/student/all HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 13:09:29] [WARN]: 127.0.0.1 - - "GET /api/student/all HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 13:11:02] [INFO]: 127.0.0.1 - - "GET /api/student/ HTTP/1.1" 200 818 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-19 13:11:06] [INFO]: 127.0.0.1 - - "GET /api/student/all HTTP/1.1" 200 7432 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-19 13:11:50] [INFO]: 127.0.0.1 - - "GET /api/student HTTP/1.1" 200 818 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-19 13:12:17] [INFO]: 127.0.0.1 - - "GET /api/student HTTP/1.1" 200 818 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-19 13:12:26] [INFO]: 127.0.0.1 - - "GET /api/student HTTP/1.1" 200 818 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-19 13:12:28] [INFO]: 127.0.0.1 - - "GET /api/student/ HTTP/1.1" 200 818 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-19 13:12:47] [INFO]: 127.0.0.1 - - "GET /api/student/ HTTP/1.1" 200 818 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-19 13:12:49] [INFO]: 127.0.0.1 - - "GET /api/student/all HTTP/1.1" 200 7432 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-19 13:13:04] [INFO]: 127.0.0.1 - - "GET /api/student HTTP/1.1" 200 818 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-19 13:28:31] [INFO]: 127.0.0.1 - - "GET /api/student/all HTTP/1.1" 200 7432 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 13:28:51] [WARN]: 127.0.0.1 - - "GET /api/student/all HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 13:28:59] [WARN]: 127.0.0.1 - - "GET /api/student/all HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 13:29:06] [WARN]: 127.0.0.1 - - "GET /api/student/all HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 13:29:28] [WARN]: 127.0.0.1 - - "GET /api/student/all HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 13:29:35] [WARN]: 127.0.0.1 - - "GET /api/student/all HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 13:36:47] [WARN]: 127.0.0.1 - - "GET /api/student/all HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 13:36:53] [WARN]: 127.0.0.1 - - "GET /api/student/all HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 13:39:24] [INFO]: 127.0.0.1 - - "GET /api/student/all HTTP/1.1" 200 7432 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 14:21:50] [WARN]: 127.0.0.1 - - "GET /api/student/all HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 14:26:14] [ERROR]: ::1 - - "GET / HTTP/1.1" 404 139 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 14:26:14] [ERROR]: ::1 - - "GET / HTTP/1.1" 404 139 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 14:26:15] [ERROR]: ::1 - - "GET / HTTP/1.1" 404 139 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 14:26:17] [ERROR]: ::1 - - "GET / HTTP/1.1" 404 139 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 14:28:14] [ERROR]: ::1 - - "GET / HTTP/1.1" 404 139 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 14:29:02] [ERROR]: ::1 - - "GET / HTTP/1.1" 404 139 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 14:29:15] [ERROR]: ::1 - - "GET / HTTP/1.1" 404 139 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 14:29:17] [ERROR]: ::1 - - "GET / HTTP/1.1" 404 139 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 14:30:08] [ERROR]: ::1 - - "GET / HTTP/1.1" 404 139 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 14:30:09] [ERROR]: ::1 - - "GET / HTTP/1.1" 404 139 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 14:30:20] [ERROR]: ::1 - - "GET / HTTP/1.1" 404 139 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 14:30:22] [ERROR]: ::1 - - "GET / HTTP/1.1" 404 139 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 14:30:39] [ERROR]: ::1 - - "GET / HTTP/1.1" 404 139 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-19 14:30:55] [ERROR]: ::1 - - "GET /student HTTP/1.1" 404 146 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-19 14:30:57] [ERROR]: ::1 - - "GET /student/ HTTP/1.1" 404 147 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-19 14:33:04] [ERROR]: ::1 - - "GET /api/admin/login HTTP/1.1" 404 154 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-19 14:33:11] [ERROR]: ::1 - - "GET / HTTP/1.1" 404 139 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-19 14:33:12] [ERROR]: ::1 - - "GET / HTTP/1.1" 404 139 "" "PostmanRuntime/7.28.0"
+
+api [2021-06-19 14:41:56] [ERROR]: ::1 - - "GET / HTTP/1.1" 404 139 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 14:41:57] [ERROR]: ::1 - - "GET / HTTP/1.1" 404 139 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 14:42:04] [ERROR]: ::1 - - "GET /api/stuent HTTP/1.1" 404 149 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 14:42:10] [INFO]: ::1 - - "GET /api/student HTTP/1.1" 200 818 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+
+api [2021-06-19 14:42:10] [ERROR]: ::1 - - "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:9527/api/student" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36"
+

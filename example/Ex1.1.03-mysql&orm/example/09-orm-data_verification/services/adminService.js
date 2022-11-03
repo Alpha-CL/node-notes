@@ -1,16 +1,16 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-const Admin = require('../models/Admin'),
-	Student = require('../models/Student'),
-	Class = require('../models/Class');
+const Admin = require("../models/Admin"),
+	Student = require("../models/Student"),
+	Class = require("../models/Class");
 
 
 /** 操作符: 模糊查询 **/
-const {Op} = require('sequelize');
+const {Op} = require("sequelize");
 
 /** 对密码加密 md5 **/
-const md5 = require('md5');
+const md5 = require("md5");
 
 
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
@@ -47,7 +47,7 @@ let addAdmin,
 
 addAdmin = async function (adminObj, operatorId) {
 
-	// console.log('test');
+	// console.log("test");
 	// 判断 adminObj 的各种属性是否合理，以及账号是否已存在
 
 	/** 验证规则 **/

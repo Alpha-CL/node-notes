@@ -77,12 +77,12 @@ app.get('/news', (req, res, next) => {
 });
 
 /**
- * app.use(path, midware);
+ * app.use(path, middleware);
  *
  *
- * app.use("*", midware); === app.use(midware);
+ * app.use("*", middleware); === app.use(middleware);
  *
- ** app.use(path, midware); vs app.otherMethod(path, midware);
+ ** app.use(path, middleware); vs app.otherMethod(path, middleware);
  ** use 不仅可匹配 当前 path，还可以匹配以当前 path 作为根路径后的所有后代路径
  ** useMiddleware 中可以输出 req.baseUrl
  */

@@ -4,7 +4,7 @@
 const express = require("express"),
 	router = express.Router(),
 	stuServ = require("../../services/studentService"),
-	{asyncHandler} = require("../getSendResult");
+	{asyncHandler} = require("../util/getSendResult");
 
 
 //-------------------------------------------------------------------------------------------------------------------//
@@ -13,10 +13,19 @@ const express = require("express"),
 router.get(
 	"/",
 	asyncHandler(async (req, res) => {
-		const page = req.query.page || 1;
-		const limit = req.query.limit || 10;
-		const sex = req.query.sex || -1;
-		const name = req.query.name || "";
+
+		if (req.query.all) {
+			// console.log('test');
+			return await stuServ.getAllStudents();
+		}
+
+		const page = req.query.page || 1,
+			limit = req.query.limit || 10,
+			sex = req.query.sex || -1,
+			name = req.query.name || "";
+
+		console.log('test');
+
 		return await stuServ.getStudents(page, limit, sex, name);
 	})
 );

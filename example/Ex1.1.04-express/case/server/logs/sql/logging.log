@@ -1,0 +1,62 @@
+sql [2021-07-06 11:55:52] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-07-06 11:55:52] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-07-06 11:55:52] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-07-06 11:55:52] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-07-06 11:55:52] [DEBUG]: Executing (default): ALTER TABLE `students` ADD `name` VARCHAR(255) NOT NULL;
+
+sql [2021-07-06 11:55:52] [DEBUG]: Executing (default): ALTER TABLE `students` ADD `birthday` DATETIME NOT NULL;
+
+sql [2021-07-06 11:56:09] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-07-06 11:56:09] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-07-06 11:56:09] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-07-06 11:56:09] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-07-06 11:56:09] [DEBUG]: Executing (default): ALTER TABLE `students` ADD `birthday` DATETIME NOT NULL;
+
+sql [2021-07-06 11:56:20] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-07-06 11:56:20] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-07-06 11:56:20] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-07-06 11:56:20] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-07-06 11:56:20] [DEBUG]: Executing (default): ALTER TABLE `students` ADD `birthday` DATETIME NOT NULL;
+
+sql [2021-07-06 11:58:21] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-07-06 11:58:21] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-07-06 11:58:21] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-07-06 11:58:21] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-07-06 11:58:21] [DEBUG]: Executing (default): ALTER TABLE `students` ADD `birthday` DATETIME NOT NULL;
+
+sql [2021-07-06 11:58:24] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-07-06 11:58:24] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-07-06 11:58:25] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-07-06 11:58:25] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-07-06 11:58:25] [DEBUG]: Executing (default): ALTER TABLE `students` ADD `birthday` DATETIME NOT NULL;
+
+sql [2021-07-06 11:58:42] [DEBUG]: Executing (default): SELECT 1+1 AS result
+
+sql [2021-07-06 11:58:42] [DEBUG]: Executing (default): CREATE TABLE IF NOT EXISTS `students` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `birthday` DATETIME NOT NULL, `sex` TINYINT(1) NOT NULL, `mobile` VARCHAR(11) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+
+sql [2021-07-06 11:58:42] [DEBUG]: Executing (default): SHOW FULL COLUMNS FROM `students`;
+
+sql [2021-07-06 11:58:42] [DEBUG]: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'students' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='test' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+sql [2021-07-06 11:58:42] [DEBUG]: Executing (default): ALTER TABLE `students` ADD `birthday` DATETIME NOT NULL;
+

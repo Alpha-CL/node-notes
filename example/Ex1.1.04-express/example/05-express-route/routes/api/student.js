@@ -17,13 +17,12 @@ router.get(
 		const limit = req.query.limit || 10;
 		const sex = req.query.sex || -1;
 		const name = req.query.name || "";
+		console.log("test");
 		return await stuServ.getStudents(page, limit, sex, name);
 	})
 );
 
-router.get(
-	"/:id",
-	asyncHandler(async (req, res) => {
+router.get("/:id", asyncHandler(async (req, res) => {
 		return await stuServ.getStudentById(req.params.id);
 	})
 );
